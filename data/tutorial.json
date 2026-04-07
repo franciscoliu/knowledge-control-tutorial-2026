@@ -1,0 +1,254 @@
+{
+  "site": {
+    "title": "Knowledge Control for Responsible Generative AI: Bridging Academia, Industry, and Society",
+    "eventLine": "ACL 2026 Tutorial • San Diego • July 2 • Time/Room: TBD",
+    "location": {
+      "city": "San Diego",
+      "venue": "TBD",
+      "room": "TBD"
+    },
+    "date": {
+      "display": "July 2, 2026",
+      "iso": "2026-07-02"
+    },
+    "materials": {
+      "slidesUrl": null,
+      "videoUrl": null,
+      "codeRepoUrl": null,
+      "colabUrl": null
+    }
+  },
+  "about": {
+    "heading": "Tutorial Goal",
+    "paragraphs": [
+      "Controlling the knowledge and behavior of generative AI systems, including large language models (LLMs), multimodal LLMs (MLLMs), and text-to-image (T2I) models, has become critical as they are increasingly used in safety-sensitive and socially impactful applications. These models often encode unintended, biased, or private content, leading to harmful or unethical outputs. Post-training knowledge control has thus emerged as a practical framework for selectively modifying or removing model behaviors without full retraining, offering scalable and interpretable interventions for improving safety, privacy, and fairness.",
+      "This tutorial introduces the foundations of post-training knowledge control and showcases recent frontier methods, bridging research insights with real-world practices from both academia and industry. We cover: (i) key motivations and failure modes, such as harmful generation and stereotype reinforcement; (ii) core methods such as machine unlearning, knowledge editing, and inference-time interventions for targeted behavior adjustment; and (iii) evaluation protocols for balancing forgetting, retention, and fairness. Case studies will span text and vision–language generation, including privacy preservation, bias mitigation, and factual correction."
+    ]
+  },
+  "presenters": [
+    {
+      "id": "zheyuanliu",
+      "name": "Zheyuan Liu",
+      "affiliation": "University of Notre Dame",
+      "email": "zliu29@nd.edu",
+      "image": "assets/img/speakers/zheyuanliu.png",
+      "websiteUrl": "https://franciscoliu.github.io/"
+    },
+    {
+      "id": "yixinwan",
+      "name": "Yixin Wan",
+      "affiliation": "UCLA",
+      "email": "elaine1wan@g.ucla.edu",
+      "image": "assets/img/speakers/yixinwan.png",
+      "websiteUrl": "https://elainew728.github.io/"
+    },
+    {
+      "id": "kaiweichang",
+      "name": "Kai-Wei Chang",
+      "affiliation": "UCLA",
+      "email": "kwchang@cs.ucla.edu",
+      "image": "assets/img/speakers/kaiweichang.png",
+      "websiteUrl": "http://web.cs.ucla.edu/~kwchang/"
+    },
+    {
+      "id": "mengjiang",
+      "name": "Meng Jiang",
+      "affiliation": "University of Notre Dame",
+      "email": "mjiang2@nd.edu",
+      "image": "assets/img/speakers/mengjiang.png",
+      "websiteUrl": "http://www.meng-jiang.com/"
+    },
+    {
+      "id": "jieyuzhao",
+      "name": "Jieyu Zhao",
+      "affiliation": "USC",
+      "email": "jieyuz@usc.edu",
+      "image": "assets/img/speakers/jieyuzhao.png",
+      "websiteUrl": "https://jyzhao.net/"
+    },
+    {
+      "id": "nouhadziri",
+      "name": "Nouha Dziri",
+      "affiliation": "Allen Institute for AI",
+      "email": "nouhad@allenai.org",
+      "image": "assets/img/speakers/nouhadziri.png",
+      "websiteUrl": "https://nouhadziri.github.io/"
+    },
+    {
+      "id": "yuningmao",
+      "name": "Yuning Mao",
+      "affiliation": "Meta Superintelligence Labs",
+      "email": "yuningm@meta.com",
+      "image": "assets/img/speakers/yuningmao.png",
+      "websiteUrl": "https://morningmoni.github.io/"
+    }
+  ],
+  "audience": {
+    "heading": "Intended Audience",
+    "paragraph": "",
+    "callouts": [
+      {
+        "title": "Who should attend",
+        "bullets": [
+          "NLP/ML researchers and applied scientists working on trustworthy generative AI",
+          "Industry practitioners shipping LLM/MLLM systems in safety-sensitive settings",
+          "Students entering unlearning/editing/evaluation for safety, fairness, and privacy"
+        ]
+      },
+      {
+        "title": "Prerequisites",
+        "bullets": [
+          "Helpful background: LLM/Transformer fundamentals (pre-training, attention, basic prompting) and standard fine-tuning concepts",
+          "Practical comfort: reading Python/ML code and interpreting common evaluation metrics (accuracy, calibration, error analysis)"
+        ]
+      },
+      {
+        "title": "What you’ll be able to do after",
+        "bullets": [
+          "Identify when to use unlearning vs. editing vs. inference-time control, and articulate the trade-offs (retention, stability, auditability)",
+          "Design an evaluation plan that balances forgetting and utility, including safety/fairness/privacy checks and benchmark selection"
+        ]
+      }
+    ]
+  },
+  "agenda": [
+    {
+      "partId": "I",
+      "title": "Introduction",
+      "durationMin": 15,
+      "summaryBullets": [
+        "Background and preliminaries; what “knowledge control” means in generative models",
+        "Motivations and taxonomy of post-training interventions",
+        "Failure modes: harmful generation, bias, and privacy leakage"
+      ],
+      "topicsQuestions": [
+        "TBD: add your intro guiding questions/topics here"
+      ]
+    },
+    {
+      "partId": "II",
+      "title": "Machine Unlearning for Knowledge Removal",
+      "durationMin": 35,
+      "summaryBullets": [
+        "Selective forgetting and behavior suppression strategies",
+        "Balancing stability, retention, and scalability",
+        "Practical implications for real-world deployment"
+      ]
+    },
+    {
+      "partId": "III",
+      "title": "Knowledge Editing for Targeted Modification",
+      "durationMin": 35,
+      "summaryBullets": [
+        "Mechanistic and memory-based editing methods",
+        "Use cases: factual correction, personalization, reasoning consistency",
+        "Extensions to multilingual and multimodal systems"
+      ]
+    },
+    {
+      "partId": "break",
+      "title": "Coffee Break",
+      "durationMin": 30,
+      "summaryBullets": []
+    },
+    {
+      "partId": "IV",
+      "title": "Industry Perspectives on Trustworthy Knowledge Control",
+      "durationMin": 30,
+      "summaryBullets": [
+        "Deployment constraints and safety/utility trade-offs at scale",
+        "Auditability, governance, and operational best practices",
+        "TBD: concrete industry case studies and panel prompts"
+      ],
+      "topicsQuestions": [
+        "TBD: add your industry perspective questions/topics here"
+      ]
+    },
+    {
+      "partId": "V",
+      "title": "Reflective and Bias-Aware Knowledge Control",
+      "durationMin": 30,
+      "summaryBullets": [
+        "Bias-aware decoding and fairness-preserving interventions",
+        "Reflection-based and self-alignment strategies",
+        "Distillation and feedback-loop based behavior modification"
+      ]
+    },
+    {
+      "partId": "VI",
+      "title": "Evaluation and Responsible Deployment",
+      "durationMin": 25,
+      "summaryBullets": [
+        "Metrics for forgetting–retention and fairness–utility balance",
+        "Benchmarks for safety, privacy, and factual reliability",
+        "Responsible deployment, auditing, and governance"
+      ]
+    },
+    {
+      "partId": "VII",
+      "title": "Conclusion and Future Directions",
+      "durationMin": 15,
+      "summaryBullets": [
+        "Scalable and certifiable unlearning for foundation models",
+        "Open challenges and cross-sector collaboration roadmap"
+      ],
+      "topicsQuestions": [
+        "TBD: add your conclusion/future-direction questions/topics here"
+      ]
+    }
+  ],
+  "readingListByPart": {
+    "II": [
+      {
+        "title": "Large Language Model Unlearning",
+        "authors": "Yuanshun Yao, Xiaojun Xu, Yang Liu",
+        "venueYear": "NeurIPS 2024",
+        "note": "Pre-reading (*)"
+      },
+      {
+        "title": "An Adversarial Perspective on Machine Unlearning for AI Safety",
+        "authors": "Jakub Łucki, Boyi Wei, Yangsibo Huang, Peter Henderson, Florian Tramèr",
+        "venueYear": "arXiv 2024"
+      }
+    ],
+    "III": [
+      {
+        "title": "Locating and Editing Factual Associations in GPT",
+        "authors": "Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov",
+        "venueYear": "NeurIPS 2022",
+        "note": "Pre-reading (*)"
+      },
+      {
+        "title": "Memory-Based Model Editing at Scale",
+        "authors": "Eric Mitchell, Charles Lin, Antoine Bosselut, Christopher Manning, Chelsea Finn",
+        "venueYear": "ICML 2022"
+      }
+    ],
+    "V": [
+      {
+        "title": "Detect and Perturb: Neutral Rewriting of Biased and Sensitive Text",
+        "authors": "Zexue He, Bodhisattwa Prasad Majumder, Julian McAuley",
+        "venueYear": "EMNLP Findings 2021",
+        "note": "Pre-reading (*)"
+      },
+      {
+        "title": "How Well Can Text-to-Image Models Understand Ethical Natural Language Interventions?",
+        "authors": "Hritik Bansal, Da Yin, Masoud Monajatipoor, Kai-Wei Chang",
+        "venueYear": "EMNLP 2022"
+      }
+    ],
+    "VI": [
+      {
+        "title": "TOFU: A Task of Fictitious Unlearning for LLMs",
+        "authors": "Pratyush Maini, Zhili Feng, Avi Schwarzschild, Zachary C. Lipton, J. Zico Kolter",
+        "venueYear": "arXiv 2024",
+        "note": "Pre-reading (*)"
+      },
+      {
+        "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use with Unlearning",
+        "authors": "Nathaniel Li, Alexander Pan, Anjali Gopal, et al.",
+        "venueYear": "arXiv 2024"
+      }
+    ]
+  }
+}
