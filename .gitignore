@@ -1,0 +1,7 @@
+.DS_Store
+~rm -f .DS_Store "~$ACL_26_Tutorial.pptx" images/.DS_Store images/profile/.DS_Store && printf "%s\n" ".DS_Store" "~$*.pptx" > .gitignore && git add -A && git commit --trailer "Made-with: Cursor" -m "$(cat <<'EOF'
+Clean repo artifacts
+
+Remove macOS metadata and temporary Office files; add .gitignore to prevent reintroduction.
+EOF
+)".pptx
