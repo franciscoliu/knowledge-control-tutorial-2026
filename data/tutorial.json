@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Knowledge Control for Responsible Generative AI: Bridging Academia, Industry, and Society",
-    "eventLine": "ACL 2026 Tutorial • San Diego • July 2 • Time/Room: TBD",
+    "eventLine": "ACL 2026 Tutorial • San Diego • July 2 • 2:00 pm - 5:30 pm • Room TBD",
     "location": {
       "city": "San Diego",
       "venue": "TBD",
@@ -10,6 +10,9 @@
     "date": {
       "display": "July 2, 2026",
       "iso": "2026-07-02"
+    },
+    "time": {
+      "display": "2:00 pm - 5:30 pm"
     },
     "materials": {
       "slidesUrl": null,
@@ -81,6 +84,14 @@
       "email": "yuningm@meta.com",
       "image": "assets/img/speakers/yuningmao.png",
       "websiteUrl": "https://morningmoni.github.io/"
+    },
+    {
+      "id": "jiachengu",
+      "name": "Jiachen Gu",
+      "affiliation": "UCLA",
+      "email": "gujc@ucla.edu",
+      "image": "images/profile/JiachenGu.png",
+      "websiteUrl": "https://jasonforjoy.github.io/"
     }
   ],
   "audience": {
@@ -161,7 +172,9 @@
         "TBD: concrete industry case studies and panel prompts"
       ],
       "topicsQuestions": [
-        "TBD: add your industry perspective questions/topics here"
+        "What trustworthy knowledge-control problems matter most in real deployments?",
+        "Which intervention strategies are actually practical at scale?",
+        "How should trustworthy knowledge-control methods be evaluated in real deployment settings?"
       ]
     },
     {
@@ -206,9 +219,44 @@
         "note": "Pre-reading (*)"
       },
       {
-        "title": "An Adversarial Perspective on Machine Unlearning for AI Safety",
-        "authors": "Jakub Łucki, Boyi Wei, Yangsibo Huang, Peter Henderson, Florian Tramèr",
-        "venueYear": "arXiv 2024"
+        "title": "Negative Preference Optimization: From Catastrophic Collapse to Effective Unlearning",
+        "authors": "Ruiqi Zhang, Licong Lin, Yu Bai, Song Mei",
+        "venueYear": "COLM 2024"
+      },
+      {
+        "title": "Editing Models with Task Arithmetic",
+        "authors": "Gabriel Ilharco, Marco Tulio Ribeiro, Mitchell Wortsman, Suchin Gururangan, Ludwig Schmidt, Hannaneh Hajishirzi, Ali Farhadi",
+        "venueYear": "ICLR 2023"
+      },
+      {
+        "title": "Towards Safer Large Language Models through Machine Unlearning",
+        "authors": "Zheyuan Liu, Guangyao Dou, Zhaoxuan Tan, Yijun Tian, Meng Jiang",
+        "venueYear": "ACL Findings 2024"
+      },
+      {
+        "title": "In-Context Unlearning: Language Models as Few-Shot Unlearners",
+        "authors": "Martin Pawelczyk, Seth Neel, Himabindu Lakkaraju",
+        "venueYear": "ICML 2024"
+      },
+      {
+        "title": "Towards LLM Unlearning Resilient to Relearning Attacks: A Sharpness-Aware Minimization Perspective and Beyond",
+        "authors": "Chongyu Fan, Jinghan Jia, Yihua Zhang, Anil Ramakrishna, Mingyi Hong, Sijia Liu",
+        "venueYear": "ICML 2025"
+      },
+      {
+        "title": "Dual-Space Smoothness for Robust and Balanced LLM Unlearning",
+        "authors": "Han Yan, Zheyuan Liu, Meng Jiang",
+        "venueYear": "ICLR 2026"
+      },
+      {
+        "title": "Modality-Aware Neuron Pruning for Unlearning in Multimodal Large Language Models",
+        "authors": "Zheyuan Liu, Guangyao Dou, Xiangchi Yuan, Chunhui Zhang, Zhaoxuan Tan, Meng Jiang",
+        "venueYear": "ACL 2025"
+      },
+      {
+        "title": "MMUnlearner: Reformulating Multimodal Machine Unlearning in the Era of Multimodal Large Language Models",
+        "authors": "Jiahao Huo, Yibo Yan, Xu Zheng, Yuanhuiyi Lyu, Xin Zou, Zhihua Wei, Xuming Hu",
+        "venueYear": "ACL Findings 2025"
       }
     ],
     "III": [
@@ -226,15 +274,40 @@
     ],
     "V": [
       {
-        "title": "Detect and Perturb: Neutral Rewriting of Biased and Sensitive Text",
-        "authors": "Zexue He, Bodhisattwa Prasad Majumder, Julian McAuley",
-        "venueYear": "EMNLP Findings 2021",
+        "title": "\"Kelly is a Warm Person, Joseph is a Role Model\": Gender Biases in LLM-Generated Reference Letters",
+        "authors": "Yixin Wan, George Pu, Jiao Sun, Aparna Garimella, Kai-Wei Chang, Nanyun Peng",
+        "venueYear": "EMNLP Findings 2023",
         "note": "Pre-reading (*)"
       },
       {
-        "title": "How Well Can Text-to-Image Models Understand Ethical Natural Language Interventions?",
+        "title": "The Male CEO and the Female Assistant: Evaluation and Mitigation of Gender Biases in Text-To-Image Generation of Dual Subjects",
+        "authors": "Yixin Wan, Kai-Wei Chang",
+        "venueYear": "ACL 2025"
+      },
+      {
+        "title": "Easily Accessible Text-to-Image Generation Amplifies Demographic Stereotypes at Large Scale",
+        "authors": "Federico Bianchi, Pratyusha Kalluri, Esin Durmus, Faisal Ladhak, Myra Cheng, Debora Nozza, Tatsunori Hashimoto, Dan Jurafsky, James Zou, Aylin Caliskan",
+        "venueYear": "FAccT 2023"
+      },
+      {
+        "title": "How well can Text-to-Image Generative Models understand Ethical Natural Language Interventions?",
         "authors": "Hritik Bansal, Da Yin, Masoud Monajatipoor, Kai-Wei Chang",
         "venueYear": "EMNLP 2022"
+      },
+      {
+        "title": "Detect and Perturb: Neutral Rewriting of Biased and Sensitive Text via Gradient-based Decoding",
+        "authors": "Zexue He, Bodhisattwa Prasad Majumder, Julian McAuley",
+        "venueYear": "EMNLP Findings 2021"
+      },
+      {
+        "title": "White Men Lead, Black Women Help? Benchmarking and Mitigating Language Agency Social Biases in LLMs",
+        "authors": "Yixin Wan, Kai-Wei Chang",
+        "venueYear": "ACL 2025"
+      },
+      {
+        "title": "InsideOut: Measuring and Mitigating Insider-Outsider Bias in Interview Script Generation",
+        "authors": "Yixin Wan, Xingrun Chen, Kai-Wei Chang",
+        "venueYear": "arXiv 2025"
       }
     ],
     "VI": [

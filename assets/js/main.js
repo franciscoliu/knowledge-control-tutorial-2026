@@ -73,7 +73,7 @@ function renderAbout(about, site) {
   const aboutInfo = document.getElementById("aboutInfo");
   const venueText = site?.location?.venue && site.location.venue !== "TBD" ? site.location.venue : "TBD";
   const roomText = site?.location?.room && site.location.room !== "TBD" ? site.location.room : "TBD";
-  const timeText = "TBD";
+  const timeText = site?.time?.display ?? "TBD";
 
   aboutInfo.replaceChildren(
     el("div", { class: "about-row" }, [
