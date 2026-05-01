@@ -92,6 +92,13 @@
       "email": "gujc@ucla.edu",
       "image": "images/profile/JiachenGu.png",
       "websiteUrl": "https://jasonforjoy.github.io/"
+    },
+    {
+      "id": "jindonggu",
+      "name": "Jindong Gu",
+      "affiliation": "Google",
+      "email": "jindong.gu@outlook.com",
+      "websiteUrl": "https://jindonggu.github.io/"
     }
   ],
   "audience": {
