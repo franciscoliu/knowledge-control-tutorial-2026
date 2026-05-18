@@ -269,15 +269,75 @@
     ],
     "III": [
       {
-        "title": "Locating and Editing Factual Associations in GPT",
-        "authors": "Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov",
-        "venueYear": "NeurIPS 2022",
+        "title": "Editing Large Language Models: Problems, Methods, and Opportunities",
+        "authors": "Yunzhi Yao, Peng Wang, Bozhong Tian, Siyuan Cheng, Zhoubo Li, Shumin Deng, Huajun Chen, Ningyu Zhang",
+        "venueYear": "EMNLP 2023",
         "note": "Pre-reading (*)"
       },
       {
-        "title": "Memory-Based Model Editing at Scale",
-        "authors": "Eric Mitchell, Charles Lin, Antoine Bosselut, Christopher Manning, Chelsea Finn",
-        "venueYear": "ICML 2022"
+        "title": "MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions",
+        "authors": "Zexuan Zhong, Zhengxuan Wu, Christopher D. Manning, Christopher Potts, Danqi Chen",
+        "venueYear": "EMNLP 2023"
+      },
+      {
+        "title": "Model Editing Harms General Abilities of Large Language Models: Regularization to the Rescue",
+        "authors": "Jia-Chen Gu, Hao-Xiang Xu, Jun-Yu Ma, Pan Lu, Zhen-Hua Ling, Kai-Wei Chang, Nanyun Peng",
+        "venueYear": "EMNLP 2024"
+      },
+      {
+        "title": "Knowledge Neurons in Pretrained Transformers",
+        "authors": "Damai Dai, Li Dong, Yaru Hao, Zhifang Sui, Baobao Chang, Furu Wei",
+        "venueYear": "ACL 2022"
+      },
+      {
+        "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+        "authors": "Mor Geva, Roei Schuster, Jonathan Berant, Omer Levy",
+        "venueYear": "EMNLP 2021"
+      },
+      {
+        "title": "Locating and Editing Factual Associations in GPT",
+        "authors": "Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov",
+        "venueYear": "NeurIPS 2022"
+      },
+      {
+        "title": "Mass-Editing Memory in a Transformer",
+        "authors": "Kevin Meng, Arnab Sen Sharma, Alex Andonian, Yonatan Belinkov, David Bau",
+        "venueYear": "ICLR 2023"
+      },
+      {
+        "title": "Neighboring Perturbations of Knowledge Editing on Large Language Models",
+        "authors": "Jun-Yu Ma, Zhen-Hua Ling, Ningyu Zhang, Jia-Chen Gu",
+        "venueYear": "ICML 2024"
+      },
+      {
+        "title": "Model Editing at Scale leads to Gradual and Catastrophic Forgetting",
+        "authors": "Akshat Gupta, Anurag Rao, Gopala Anumanchipalli",
+        "venueYear": "ACL Findings 2024"
+      },
+      {
+        "title": "The Butterfly Effect of Model Editing: Few Edits Can Trigger Large Language Models Collapse",
+        "authors": "Wanli Yang, Fei Sun, Xinyu Ma, Xun Liu, Dawei Yin, Xueqi Cheng",
+        "venueYear": "ACL Findings 2024"
+      },
+      {
+        "title": "Lifelong Knowledge Editing requires Better Regularization",
+        "authors": "Akshat Gupta, Phudish Prateepamornkul, Maochuan Lu, Ahmed Alaa, Thomas Hartvigsen, Gopala Anumanchipalli",
+        "venueYear": "EMNLP Findings 2025"
+      },
+      {
+        "title": "Perturbation-Restrained Sequential Model Editing",
+        "authors": "Jun-Yu Ma, Hong Wang, Hao-Xiang Xu, Zhen-Hua Ling, Jia-Chen Gu",
+        "venueYear": "ICLR 2025"
+      },
+      {
+        "title": "Energy-Regularized Sequential Model Editing on Hyperspheres",
+        "authors": "Qingyuan Liu, Jia-Chen Gu, Yunzhi Yao, Hong Wang, Nanyun Peng",
+        "venueYear": "ICLR 2026"
+      },
+      {
+        "title": "AlphaEdit: Null-Space Constrained Knowledge Editing for Language Models",
+        "authors": "Junfeng Fang, Houcheng Jiang, Kun Wang, Yunshan Ma, Jie Shi, Xiang Wang, Xiangnan He, Tat-Seng Chua",
+        "venueYear": "ICLR 2025"
       }
     ],
     "V": [
@@ -326,9 +386,24 @@
         "note": "Pre-reading (*)"
       },
       {
-        "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use with Unlearning",
-        "authors": "Nathaniel Li, Alexander Pan, Anjali Gopal, et al.",
-        "venueYear": "arXiv 2024"
+        "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
+        "authors": "Nathaniel Li, Alexander Pan, Anjali Gopal, Summer Yue, Daniel Berrios, Alice Gatti, Justin D. Li, Ann-Kathrin Dombrowski, Shashwat Goel, Gabriel Mukobi, et al.",
+        "venueYear": "ICML 2024"
+      },
+      {
+        "title": "MUSE: Machine Unlearning Six-Way Evaluation for Language Models",
+        "authors": "Weijia Shi, Jaechan Lee, Yangsibo Huang, Sadhika Malladi, Jieyu Zhao, Ari Holtzman, Daogao Liu, Luke Zettlemoyer, Noah A. Smith, Chiyuan Zhang",
+        "venueYear": "ICLR 2025"
+      },
+      {
+        "title": "Protecting Privacy in Multimodal Large Language Models with MLLMU-Bench",
+        "authors": "Zheyuan Liu, Guangyao Dou, Mengzhao Jia, Zhaoxuan Tan, Qingkai Zeng, Yongle Yuan, Meng Jiang",
+        "venueYear": "NAACL 2025"
+      },
+      {
+        "title": "CLEAR: Character Unlearning in Textual and Visual Modalities",
+        "authors": "Alexey Dontsov, Dmitrii Korzh, Alexey Zhavoronkin, Boris Mikheev, Denis Bobkov, Aibek Alanov, Oleg Y. Rogov, Ivan Oseledets, Elena Tutubalina",
+        "venueYear": "ACL Findings 2025"
       }
     ]
   }
