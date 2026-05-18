@@ -607,6 +607,29 @@ a {
   display: grid;
   gap: 8px;
 }
+.agenda-paper-scroll {
+  max-height: 430px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+.agenda-paper-scroll .agenda-paper {
+  margin-top: 10px;
+}
+.agenda-paper-scroll .agenda-paper:first-child {
+  margin-top: 0;
+}
+.agenda-paper-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+.agenda-paper-scroll::-webkit-scrollbar-track {
+  background: rgba(12, 18, 34, 0.04);
+  border-radius: 999px;
+}
+.agenda-paper-scroll::-webkit-scrollbar-thumb {
+  background: rgba(12, 18, 34, 0.16);
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.65);
+}
 .agenda-papers-title {
   margin: 4px 0 0;
   color: rgba(12, 18, 34, 0.72);

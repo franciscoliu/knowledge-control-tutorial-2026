@@ -43,7 +43,7 @@ function renderQuickLinks(materials) {
   const items = [
     { title: "Slides", url: safeLink(materials.slidesUrl) },
     { title: "Video", url: safeLink(materials.videoUrl) },
-    { title: "Code repo", url: safeLink(materials.codeRepoUrl) },
+    { title: "Paper repo", url: safeLink(materials.codeRepoUrl) },
     { title: "Colab", url: safeLink(materials.colabUrl) }
   ];
 
@@ -215,7 +215,7 @@ function renderAgenda(agenda, readingListByPart) {
         mainParts.push(
           el("div", { class: "agenda-papers" }, [
             el("p", { class: "agenda-papers-title", text: "Representative papers" }),
-            ...paperNodes
+            el("div", { class: "agenda-paper-scroll", "aria-label": `${title} representative papers` }, paperNodes)
           ])
         );
       }
@@ -285,8 +285,8 @@ function renderMaterials(materials) {
       url: safeLink(materials.videoUrl)
     },
     {
-      title: "GitHub repository",
-      desc: "Reference code and benchmark datasets.",
+      title: "Paper repository",
+      desc: "Section-wise paper list with paper links and code links when publicly available.",
       url: safeLink(materials.codeRepoUrl)
     },
     {
