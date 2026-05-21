@@ -147,7 +147,7 @@
     {
       "partId": "II",
       "title": "Machine Unlearning for Knowledge Removal",
-      "durationMin": 35,
+      "durationMin": 30,
       "summaryBullets": [
         "Selective forgetting and behavior suppression strategies",
         "Balancing stability, retention, and scalability",
@@ -157,7 +157,7 @@
     {
       "partId": "III",
       "title": "Knowledge Editing for Targeted Modification",
-      "durationMin": 35,
+      "durationMin": 30,
       "summaryBullets": [
         "Mechanistic and memory-based editing methods",
         "Use cases: factual correction, personalization, reasoning consistency",
@@ -173,7 +173,7 @@
     {
       "partId": "IV",
       "title": "Industry Perspectives on Trustworthy Knowledge Control",
-      "durationMin": 30,
+      "durationMin": 40,
       "summaryBullets": [
         "Deployment constraints and safety/utility trade-offs at scale",
         "Auditability, governance, and operational best practices",
@@ -198,7 +198,7 @@
     {
       "partId": "VI",
       "title": "Evaluation and Responsible Deployment",
-      "durationMin": 25,
+      "durationMin": 20,
       "summaryBullets": [
         "Metrics for forgetting–retention and fairness–utility balance",
         "Benchmarks for safety, privacy, and factual reliability",
