@@ -24,8 +24,8 @@ function renderPills(site) {
   const items = [
     { label: site.location.city, tbd: false },
     { label: site.date.display, tbd: false },
-    { label: site.location.venue === "TBD" ? "Venue: TBD" : site.location.venue, tbd: site.location.venue === "TBD" },
-    { label: site.location.room === "TBD" ? "Room: TBD" : site.location.room, tbd: site.location.room === "TBD" }
+    { label: `Venue: ${site.location.venue ?? "TBD"}`, tbd: site.location.venue === "TBD" },
+    { label: `Room: ${site.location.room ?? "TBD"}`, tbd: site.location.room === "TBD" }
   ];
 
   meta.replaceChildren(
