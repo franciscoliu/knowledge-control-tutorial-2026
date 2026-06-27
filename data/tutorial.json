@@ -72,7 +72,7 @@
     {
       "id": "nouhadziri",
       "name": "Nouha Dziri",
-      "affiliation": "Allen Institute for AI",
+      "affiliation": "Cohere Labs",
       "email": "nouhad@allenai.org",
       "image": "assets/img/speakers/nouhadziri.png",
       "websiteUrl": "https://nouhadziri.github.io/"
@@ -96,7 +96,7 @@
     {
       "id": "jindonggu",
       "name": "Jindong Gu",
-      "affiliation": "Google",
+      "affiliation": "Google DeepMind",
       "email": "jindong.gu@outlook.com",
       "image": "images/profile/jindonggu.png",
       "websiteUrl": "https://jindonggu.github.io/"
@@ -134,7 +134,7 @@
     {
       "partId": "I",
       "title": "Introduction",
-      "durationMin": 15,
+      "durationMin": 20,
       "summaryBullets": [
         "Background and preliminaries; what “knowledge control” means in generative models",
         "Motivations and taxonomy of post-training interventions",
@@ -173,7 +173,7 @@
     {
       "partId": "IV",
       "title": "Industry Perspectives on Trustworthy Knowledge Control",
-      "durationMin": 40,
+      "durationMin": 35,
       "summaryBullets": [
         "Deployment constraints and safety/utility trade-offs at scale",
         "Auditability, governance, and operational best practices",
